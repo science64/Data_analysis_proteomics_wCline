@@ -1,0 +1,88 @@
+ISRIB Rescue Analysis: Biological Insights
+========================================
+
+1. Global Impact of ISRIB Treatment
+---------------------------------
+- Large-scale rescue effect: 2423 proteins show significant rescue
+- Robust rescue magnitude: Mean Log2FC improvement of 1.536
+- Consistent rescue effect: Low variability (Std Dev: 0.907)
+- Distribution suggests systematic rescue:
+  * 25th percentile: 0.915
+  * Median: 1.302
+  * 75th percentile: 1.861
+
+2. Category-Specific Rescue Patterns
+----------------------------------
+A. TOM Complex (Import Machinery):
+   - Highest proportion of rescue: 5 out of 6 proteins (83%)
+   - Most moderate initial decrease (Mean CCCP Log2FC: -1.622)
+   - Strong recovery (Mean CCCP+ISRIB Log2FC: -0.212)
+   - Consistent rescue magnitude (1.409)
+   Hypothesis: ISRIB effectively preserves import machinery functionality
+
+B. Mitochondrial Small Ribosomal Subunit:
+   - Moderate rescue rate: 16 out of 26 proteins (62%)
+   - Severe initial impact (Mean CCCP Log2FC: -4.438)
+   - Partial recovery (Mean CCCP+ISRIB Log2FC: -3.216)
+   - Modest rescue magnitude (1.222)
+   Hypothesis: Translation machinery components show differential sensitivity to ISRIB rescue
+
+C. Respiratory Complex I:
+   - Good rescue rate: 33 out of 49 proteins (67%)
+   - Strong initial decrease (Mean CCCP Log2FC: -4.185)
+   - Partial recovery (Mean CCCP+ISRIB Log2FC: -2.747)
+   - Substantial rescue magnitude (1.438)
+   Hypothesis: ISRIB partially preserves respiratory chain component import
+
+D. Mitochondrial Genome-Encoded Proteins:
+   - Limited rescue: 2 out of 7 proteins (29%)
+   - Significant initial impact (Mean CCCP Log2FC: -3.924)
+   - Partial recovery (Mean CCCP+ISRIB Log2FC: -2.375)
+   - Strong rescue magnitude when it occurs (1.549)
+   Hypothesis: ISRIB's effect extends beyond nuclear-encoded proteins
+
+3. Exceptional Cases
+------------------
+A. Most Dramatically Rescued Proteins:
+   - Top rescue magnitudes range from 5.8 to 7.7
+   - Several proteins show complete reversal from negative to positive Log2FC
+   - Notable examples:
+     * Q12933: -5.888 to 1.774 (Δ7.662)
+     * Q6PCD5: -7.023 to 0.470 (Δ7.492)
+     * Q9Y2X7: -4.782 to 2.219 (Δ7.001)
+
+B. Upregulated Proteins:
+   - Only 4 proteins significantly upregulated by CCCP
+   - 2 show sustained upregulation with ISRIB
+   - 2 return to baseline with ISRIB
+   Hypothesis: ISRIB selectively maintains stress responses
+
+4. Mechanistic Insights
+----------------------
+1. Hierarchical Rescue Pattern:
+   TOM Complex (83%) > Complex I (67%) > Mito Ribosomes (62%) > Mt-encoded (29%)
+   Suggests:
+   - Import machinery preservation is prioritized
+   - Component complexity influences rescue efficiency
+   - Distance from import machinery may affect rescue potential
+
+2. Rescue Magnitude Pattern:
+   Mt-encoded (1.549) > Complex I (1.438) > TOM (1.409) > Mito Ribosomes (1.222)
+   Suggests:
+   - When rescue occurs, it's most effective for basic mitochondrial functions
+   - Complex assemblies may have more limited rescue potential
+
+5. Future Research Directions
+---------------------------
+1. Investigate mechanisms behind selective rescue of specific proteins
+2. Examine temporal dynamics of rescue response
+3. Study potential compensatory pathways in non-rescued proteins
+4. Explore the relationship between protein complexity and rescue efficiency
+5. Investigate the role of protein-protein interactions in rescue success
+
+6. Therapeutic Implications
+-------------------------
+1. ISRIB shows broad protective effects against CCCP-induced mitochondrial stress
+2. Preservation of import machinery suggests potential for maintaining mitochondrial function
+3. Differential rescue patterns suggest pathway-specific therapeutic opportunities
+4. Strong rescue of some severely affected proteins indicates significant therapeutic potential

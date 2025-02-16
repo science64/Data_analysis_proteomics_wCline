@@ -1,0 +1,150 @@
+Detailed Proteomics Analysis
+==========================
+
+1. Significantly Upregulated Proteins (Log2FC > 1, p < 0.05)
+-----------------------------------------------------
+Total upregulated proteins: 4
+
+Gene: Unknown
+Accession: O00458
+Location: Unknown
+Log2FC (CCCP/DMSO): 1.704
+Log2FC (CCCP+ISRIB/DMSO): -0.471
+Adjusted p-value: 2.480e-08
+
+Gene: Unknown
+Accession: O75496
+Location: Unknown
+Log2FC (CCCP/DMSO): 4.454
+Log2FC (CCCP+ISRIB/DMSO): 3.353
+Adjusted p-value: 3.928e-03
+
+Gene: Unknown
+Accession: P02545-2
+Location: Unknown
+Log2FC (CCCP/DMSO): 3.204
+Log2FC (CCCP+ISRIB/DMSO): 2.519
+Adjusted p-value: 4.054e-02
+
+Gene: Unknown
+Accession: Q96NB3
+Location: Unknown
+Log2FC (CCCP/DMSO): 1.973
+Log2FC (CCCP+ISRIB/DMSO): -0.340
+Adjusted p-value: 4.219e-02
+
+
+2. ISRIB Rescue Analysis
+----------------------
+Total proteins showing ISRIB rescue: 2423
+Mean rescue magnitude: 1.536
+
+Rescue magnitude statistics:
+25th percentile: 0.915
+Median: 1.302
+75th percentile: 1.861
+Mean: 1.536
+Std Dev: 0.907
+
+Top 10 Proteins Rescued by ISRIB:
+
+Gene: Unknown
+Accession: Q12933
+Location: Unknown
+CCCP Log2FC: -5.888
+CCCP+ISRIB Log2FC: 1.774
+Rescue magnitude: 7.662
+
+Gene: Unknown
+Accession: Q6PCD5
+Location: Unknown
+CCCP Log2FC: -7.023
+CCCP+ISRIB Log2FC: 0.470
+Rescue magnitude: 7.492
+
+Gene: Unknown
+Accession: Q9Y2X7
+Location: Unknown
+CCCP Log2FC: -4.782
+CCCP+ISRIB Log2FC: 2.219
+Rescue magnitude: 7.001
+
+Gene: Unknown
+Accession: Q5VTU8
+Location: Unknown
+CCCP Log2FC: -9.007
+CCCP+ISRIB Log2FC: -2.516
+Rescue magnitude: 6.491
+
+Gene: Unknown
+Accession: Q16186
+Location: Unknown
+CCCP Log2FC: -3.382
+CCCP+ISRIB Log2FC: 2.918
+Rescue magnitude: 6.300
+
+Gene: Unknown
+Accession: P02792
+Location: Unknown
+CCCP Log2FC: -5.693
+CCCP+ISRIB Log2FC: 0.478
+Rescue magnitude: 6.171
+
+Gene: Unknown
+Accession: Q9NS87
+Location: Unknown
+CCCP Log2FC: -3.638
+CCCP+ISRIB Log2FC: 2.402
+Rescue magnitude: 6.040
+
+Gene: Unknown
+Accession: Q5H8A4
+Location: Unknown
+CCCP Log2FC: -5.433
+CCCP+ISRIB Log2FC: 0.550
+Rescue magnitude: 5.983
+
+Gene: Unknown
+Accession: Q99584
+Location: Unknown
+CCCP Log2FC: -4.583
+CCCP+ISRIB Log2FC: 1.300
+Rescue magnitude: 5.884
+
+Gene: Unknown
+Accession: P62877
+Location: Unknown
+CCCP Log2FC: -5.629
+CCCP+ISRIB Log2FC: 0.200
+Rescue magnitude: 5.830
+
+3. Category-Specific Rescue Analysis
+--------------------------------
+
+Mitochondrial small ribosomal subunit:
+Total proteins in category: 26
+Proteins showing rescue: 16
+Mean CCCP Log2FC: -4.438
+Mean CCCP+ISRIB Log2FC: -3.216
+Mean rescue magnitude: 1.222
+
+Mitochondrial genome-encoded proteins:
+Total proteins in category: 7
+Proteins showing rescue: 2
+Mean CCCP Log2FC: -3.924
+Mean CCCP+ISRIB Log2FC: -2.375
+Mean rescue magnitude: 1.549
+
+Respiratory complex I:
+Total proteins in category: 49
+Proteins showing rescue: 33
+Mean CCCP Log2FC: -4.185
+Mean CCCP+ISRIB Log2FC: -2.747
+Mean rescue magnitude: 1.438
+
+TOM complex:
+Total proteins in category: 6
+Proteins showing rescue: 5
+Mean CCCP Log2FC: -1.622
+Mean CCCP+ISRIB Log2FC: -0.212
+Mean rescue magnitude: 1.409

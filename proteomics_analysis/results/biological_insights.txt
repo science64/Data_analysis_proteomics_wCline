@@ -1,0 +1,67 @@
+Biological Insights and Hypotheses
+================================
+
+1. Global Impact of CCCP Treatment
+--------------------------------
+- Strong overall negative effect on protein levels (Mean Log2FC: -1.552)
+- Nearly half of all proteins (2216 out of 4608) show significant changes
+- Striking imbalance between up/down regulation:
+  * Only 4 proteins significantly upregulated
+  * 1960 proteins significantly downregulated
+Hypothesis 1: CCCP treatment causes a widespread disruption of mitochondrial protein import, affecting a large portion of the mitochondrial proteome.
+
+2. Mitochondrial Ribosomal Proteins
+----------------------------------
+- 26 mitochondrial ribosomal proteins identified
+- 25 show significant changes (96% affected)
+- Severe downregulation (Mean Log2FC: -3.841)
+- ALL decreased proteins show strong reduction (Log2FC < -1)
+Hypothesis 2: CCCP treatment severely impacts mitochondrial translation machinery, suggesting a specific vulnerability of the mitochondrial ribosomal assembly or import pathway.
+
+3. Complex I Components
+----------------------
+- 49 Complex I proteins identified
+- 45 significantly affected (92% of Complex I proteins)
+- Strongest average downregulation (Mean Log2FC: -3.916)
+- 100% of proteins show strong decrease
+Hypothesis 3: Respiratory Complex I is particularly sensitive to CCCP treatment, suggesting either preferential degradation or impaired import of its components.
+
+4. Import Machinery Components
+----------------------------
+- TOM complex (6 proteins):
+  * 4 significantly affected
+  * Moderate downregulation (Mean Log2FC: -1.520)
+  * All 6 show decrease
+Hypothesis 4: The import machinery itself is affected but to a lesser extent than its substrates, suggesting a potential feedback mechanism rather than direct degradation.
+
+5. Mitochondrial-Encoded Proteins
+-------------------------------
+- 7 mitochondrial-encoded proteins identified
+- 5 significantly affected
+- Substantial downregulation (Mean Log2FC: -2.866)
+Hypothesis 5: The effect on mitochondrial-encoded proteins suggests that CCCP's impact extends beyond just import, affecting internal mitochondrial protein synthesis or stability.
+
+Integrative Hypotheses
+--------------------
+1. Hierarchical Vulnerability:
+   The differential impact on various protein categories (Complex I > Mito Ribosomes > Mt-encoded > TOM complex) suggests a hierarchical vulnerability to CCCP treatment, possibly related to protein complex assembly dependencies or specific import pathways.
+
+2. Feedback Regulation:
+   The moderate effect on import machinery compared to stronger effects on imported proteins suggests a potential protective mechanism for maintaining minimal import capacity.
+
+3. Systemic Response:
+   The near-complete absence of upregulated proteins suggests this is not a compensatory response but rather a systematic collapse of mitochondrial protein homeostasis.
+
+Future Investigations
+-------------------
+1. Analyze the few upregulated proteins for potential stress response elements
+2. Investigate the relationship between protein half-life and degree of decrease
+3. Examine potential correlation between TargetP scores and protein decrease
+4. Study the small subset of non-affected proteins in each category for potential protective features
+
+Technical Notes
+-------------
+- Total proteins analyzed: 4608
+- Significance threshold: p < 0.05 (adjusted)
+- Strong statistical power with 2216 significant changes
+- Clear biological significance with large effect sizes (many Log2FC < -1)

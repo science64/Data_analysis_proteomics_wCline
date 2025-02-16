@@ -1,0 +1,31 @@
+Category Analysis Summary
+=======================
+
+TOM Complex:
+- Total proteins: 6
+- Proteins rescued: 5 (83.3%)
+- Mean CCCP effect: -1.520
+- Mean CCCP+ISRIB effect: -0.280
+- Rescue magnitude: 1.240
+
+Complex I:
+- Total proteins: 49
+- Proteins rescued: 33 (67.3%)
+- Mean CCCP effect: -3.916
+- Mean CCCP+ISRIB effect: -2.991
+- Rescue magnitude: 0.925
+
+Mito Ribosomes:
+- Total proteins: 26
+- Proteins rescued: 16 (61.5%)
+- Mean CCCP effect: -3.841
+- Mean CCCP+ISRIB effect: -3.249
+- Rescue magnitude: 0.592
+
+Mt-encoded:
+- Total proteins: 7
+- Proteins rescued: 2 (28.6%)
+- Mean CCCP effect: -2.866
+- Mean CCCP+ISRIB effect: -3.547
+- Rescue magnitude: -0.680
+

@@ -1,0 +1,48 @@
+Initial Analysis Results
+=======================
+
+Uptake Sheet Statistics:
+Total proteins analyzed: 4608
+Significantly decreased proteins (CCCP/DMSO): 555
+Proteins with uptake defect: 0
+
+Statistical Summary:
+
+CCCP vs DMSO Summary:
+Mean Log2FC: -1.552
+Median Log2FC: -1.380
+Std Dev Log2FC: 1.414
+
+Total significant proteins (p<0.05): 2216
+Significant upregulated (Log2FC > 1): 4
+Significant downregulated (Log2FC < -1): 1960
+
+Protein Category Analysis:
+
+Mito Ribosome:
+Total proteins: 26
+Significant proteins: 25
+Mean Log2FC: -3.841
+Decreased (Log2FC < -1): 25
+Increased (Log2FC > 1): 0
+
+Mt-encoded:
+Total proteins: 7
+Significant proteins: 5
+Mean Log2FC: -2.866
+Decreased (Log2FC < -1): 5
+Increased (Log2FC > 1): 0
+
+Complex I:
+Total proteins: 49
+Significant proteins: 45
+Mean Log2FC: -3.916
+Decreased (Log2FC < -1): 49
+Increased (Log2FC > 1): 0
+
+TOM:
+Total proteins: 6
+Significant proteins: 4
+Mean Log2FC: -1.520
+Decreased (Log2FC < -1): 6
+Increased (Log2FC > 1): 0

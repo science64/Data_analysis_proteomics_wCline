@@ -1,0 +1,96 @@
+Category-Specific ISRIB Rescue Analysis
+=====================================
+
+1. Hierarchical Rescue Pattern
+----------------------------
+Rescue Percentage (from highest to lowest):
+1. TOM Complex: 83.3% (5/6 proteins)
+2. Complex I: 67.3% (33/49 proteins)
+3. Mito Ribosomes: 61.5% (16/26 proteins)
+4. Mt-encoded: 28.6% (2/7 proteins)
+
+Key Finding: Clear hierarchical pattern in rescue efficiency, with import machinery (TOM) showing the highest rescue rate.
+
+2. Initial CCCP Impact Severity
+----------------------------
+Severity of CCCP effect (Mean Log2FC):
+1. Complex I: -3.916
+2. Mito Ribosomes: -3.841
+3. Mt-encoded: -2.866
+4. TOM Complex: -1.520
+
+Key Finding: Import machinery (TOM) shows the most modest initial decrease, while respiratory chain components are most severely affected.
+
+3. Recovery Patterns
+-----------------
+Final state after ISRIB (Mean Log2FC):
+1. TOM Complex: -0.280 (near baseline)
+2. Complex I: -2.991 (partial recovery)
+3. Mito Ribosomes: -3.249 (partial recovery)
+4. Mt-encoded: -3.547 (further decreased)
+
+4. Rescue Magnitude Analysis
+-------------------------
+Rescue magnitude (positive indicates improvement):
+1. TOM Complex: +1.240 (strongest positive rescue)
+2. Complex I: +0.925 (substantial rescue)
+3. Mito Ribosomes: +0.592 (moderate rescue)
+4. Mt-encoded: -0.680 (negative impact)
+
+5. Biological Implications
+-----------------------
+a) Import Machinery Preservation:
+   - TOM complex shows both the highest rescue percentage and magnitude
+   - Suggests prioritized preservation of import capacity
+   - Near-baseline recovery indicates functional restoration
+
+b) Respiratory Chain Response:
+   - Complex I shows severe initial impact but good rescue rate
+   - Large number of affected proteins (49) with consistent rescue pattern
+   - Suggests coordinated rescue of respiratory function
+
+c) Translation Machinery:
+   - Mito Ribosomes show intermediate rescue efficiency
+   - Consistent but partial recovery pattern
+   - Indicates maintained but reduced translation capacity
+
+d) Mt-encoded Proteins:
+   - Unique negative rescue pattern
+   - May indicate indirect effects on mitochondrial gene expression
+   - Possible feedback mechanism affecting mitochondrial transcription/translation
+
+6. Mechanistic Insights
+---------------------
+1. Priority System:
+   - Clear evidence of prioritized rescue of import machinery
+   - Suggests cellular strategy to maintain essential import function
+
+2. Complex Assembly:
+   - Larger complexes (Complex I) show coordinated rescue patterns
+   - Suggests preservation of complex assembly pathways
+
+3. System Integration:
+   - Differential effects on nuclear vs mitochondrial-encoded proteins
+   - Indicates complex interplay between cellular and organellar responses
+
+7. Therapeutic Implications
+------------------------
+1. Import Machinery:
+   - High rescue efficiency suggests potential therapeutic target
+   - May be key to maintaining overall mitochondrial function
+
+2. Complex I:
+   - Good rescue response despite severe initial impact
+   - Suggests potential for functional recovery of respiratory chain
+
+3. Translation System:
+   - Moderate rescue indicates potential for protein synthesis recovery
+   - May require additional interventions for full restoration
+
+8. Future Research Directions
+--------------------------
+1. Investigate mechanisms behind differential rescue efficiencies
+2. Examine temporal dynamics of rescue process
+3. Study the negative impact on mt-encoded proteins
+4. Explore potential compensatory mechanisms
+5. Investigate protein complex assembly during rescue
